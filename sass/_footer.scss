@@ -1,0 +1,194 @@
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.footer .container {
+    display: flex;
+    gap: 70px;
+    justify-content: start;
+}
+
+.footer-soc-item {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-accent-color);
+}
+
+.footer-contact {
+    width: 231px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    margin-top: 20px;
+}
+
+
+.footer-text {
+    color: var(--main-accent-color);
+}
+
+.footer-link {
+    display: inline-block;
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--main-focus-color);
+}
+
+
+.footer-soc-container {
+    text-align: left;
+    padding-top: 12px;
+}
+
+
+.footer-soc-title {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-accent-color);
+    margin-bottom: 20px;
+}
+
+
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.footer-soc-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-icon {
+    fill: var(--main-accent-color);
+}
+
+.footer-soc-link:hover {
+    background-color: var(--main-focus-color);
+}
+
+.subscribe {
+    /* border: 1px solid white; */
+    min-width: 580px;
+    margin-left: 23px;
+    padding-top: 12px;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.sub-input-email {
+    min-width: 358px;
+    height: 50px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: transparent;
+    padding-left: 10px;
+    color: var(--main-accent-color);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.sub-input-email::placeholder {}
+
+.sub-input-email:focus {
+    color: var(--main-accent-color);
+}
+
+
+
+.sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    min-width: 200px;
+    height: 50px;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    border: none;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sub-place-in {
+    display: flex;
+    gap: 12px;
+}
+
+.sub-btn:active {
+    background: #7da7ca;
+}
+
+.sub-btn:hover,
+.sub-input-email:hover,
+.sub-btn:focus,
+.sub-input-email:focus {
+    border: 1px solid white;
+
+}
+
+
+.icon-teleg {
+    /* display: inline-block; */
+    fill: #EEEEEE;
+}

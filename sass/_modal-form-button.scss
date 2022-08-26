@@ -1,0 +1,30 @@
+.form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-form-btn {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    min-width: 200px;
+    height: 50px;
+
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-btn:active {
+    background: #188CE8;
+}

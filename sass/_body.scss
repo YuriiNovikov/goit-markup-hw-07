@@ -1,0 +1,45 @@
+:root {
+    --main-title-color: #212121;
+    --main-text-color: #757575;
+    --main-accent-color: #ffffff;
+    --main-focus-color: #2196F3;
+    --main-foun-color: #000000;
+    --main-icon-color: #AFB1B8;
+
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* outline: 2px solid tomato; */
+
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* 
+    display: flex; */
+}

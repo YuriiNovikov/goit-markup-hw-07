@@ -1,0 +1,47 @@
+.form-checkbox {
+    margin-bottom: 30px;
+}
+
+.check-title {
+    position: relative;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.check-title>a {
+    color: #2196F3;
+}
+
+.icon-svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.check-svg {
+    fill: #ffffff;
+}
+
+.form-checkbox:hover .box-svg,
+.form-checkbox:focus .box-svg {
+    fill: #2196F3;
+}
+
+.input-checkbox:checked+.label-check .check-svg {
+    background-color: #2196F3;
+    border-radius: 4px;
+}
+
+.input-checkbox:checked+.label-check .box-svg {
+    fill: #2196F3;
+}
