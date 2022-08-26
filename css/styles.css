@@ -305,8 +305,6 @@ background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     gap: 30px;
 }
-.works-item{
-}
 
 .works-overlay {
     position: relative;
@@ -641,15 +639,10 @@ background-color: rgba(255, 255, 255, 0.6);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.sub-input-email::placeholder{
-    
-}
 
 .sub-input-email:focus{
     color: var(--main-accent-color);
 }
-
-
 
 .sub-btn{
     display: flex;
@@ -1046,7 +1039,7 @@ gap: 12px;
     fill:#2196F3
 }
 
-/* ------ modal form checkbox ------ */
+/* ------ checkbox ------ */
 
 
 .form-checkbox {
@@ -1099,7 +1092,7 @@ gap: 12px;
 
 
 
-/* ------ MODAL FORM BUTTON ------ */
+/* ------ FORM BUTTON ------ */
 
 .form-btn {
     display: flex;
@@ -1133,6 +1126,20 @@ gap: 12px;
 }
 
 
+
+
+
+
+
+
+
+
+
+/* .iput-filed:hover .input-icon {
+    fill: #2196F3;
+} */
+
+ 
 
 
 
