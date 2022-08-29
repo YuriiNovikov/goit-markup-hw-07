@@ -3,12 +3,12 @@
     padding-bottom: 94px;
 }
 
-.advantages-list {
+.advantages__list {
     display: flex;
     gap: 30px;
 }
 
-.advantages-item-title {
+.card-adv__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -18,14 +18,14 @@
     margin-bottom: 10px;
 }
 
-.advantages-item-text {
+.card-adv__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
 
-.advantages-link {
+.card-adv__link {
     display: flex;
     align-items: center;
     justify-content: center;

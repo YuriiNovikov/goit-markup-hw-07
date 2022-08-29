@@ -1,17 +1,13 @@
-.hero.container {
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.hero .container {
+.hero__container {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.overlay-hero {
-    /* background: #2F303A; */
+.hero__overlay {
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -29,7 +25,7 @@
 
 }
 
-.hero-title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -40,7 +36,7 @@
     margin-bottom: 30px;
 }
 
-.hero-btn {
+.hero__btn {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -57,6 +53,6 @@
     transition: bacground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn:hover {
+.hero__btn:hover {
     background-color: rgba(255, 255, 255, 0.6);
 }
