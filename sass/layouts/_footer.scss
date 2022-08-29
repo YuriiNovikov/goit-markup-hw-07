@@ -49,11 +49,11 @@
     color: rgba(255, 255, 255, 0.6);
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-link:hover,
-.footer-link:focus {
-    color: var(--main-focus-color);
+    &:hover,
+    &:focus {
+        color: var(--main-focus-color);
+    };
 }
 
 
@@ -104,7 +104,6 @@
 }
 
 .subscribe {
-    /* border: 1px solid white; */
     min-width: 580px;
     margin-left: 23px;
     padding-top: 12px;
@@ -134,11 +133,18 @@
     color: var(--main-accent-color);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+    &:focus {
+            color: var(--main-accent-color);
+        };
+    
+    &:hover,
+    &:focus {
+        border: 1px solid white;
+
+    };
+
 }
 
-.sub-input-email:focus {
-    color: var(--main-accent-color);
-}
 
 .sub-btn {
     display: flex;
@@ -164,23 +170,20 @@
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:active {
+            background: #7da7ca;
+        };
+    &:hover,
+    &:focus {
+        border: 1px solid white;
+
+    };
 }
 
 .sub-place-in {
     display: flex;
     gap: 12px;
-}
-
-.sub-btn:active {
-    background: #7da7ca;
-}
-
-.sub-btn:hover,
-.sub-input-email:hover,
-.sub-btn:focus,
-.sub-input-email:focus {
-    border: 1px solid white;
-
 }
 
 
